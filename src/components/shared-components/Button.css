@@ -1,0 +1,16 @@
+.btn {
+  height: 48px;
+  width: 148px;
+
+  color: var(--green);
+  background-color: #fff;
+  font-size: 0.8rem;
+  margin-left: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--green);
+}
+
+.btn-shade {
+  background-color: var(--green);
+  color: #fff;
+}

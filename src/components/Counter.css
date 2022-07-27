@@ -1,0 +1,14 @@
+.counter-block {
+  height: 332px;
+  background-image: linear-gradient(
+      rgba(67, 131, 142, 0.4),
+      rgba(67, 131, 142, 0.5)
+    ),
+    url("./images/blockchain-exch.png");
+}
+
+.counter-block > img {
+  height: 100%;
+  width: 100vw;
+  transform: scale(1.1);
+}
