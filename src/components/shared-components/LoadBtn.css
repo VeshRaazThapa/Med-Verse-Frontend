@@ -10,4 +10,5 @@
   border-radius: 20px;
   padding: 10px 16px;
   border: 2px solid var(--green);
+  cursor: pointer;
 }

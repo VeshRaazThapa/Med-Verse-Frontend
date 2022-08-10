@@ -4,6 +4,8 @@ import Community from "./components/community/Community";
 import AboutUs from "./components/AboutUs";
 import Wwp from "./components/Wwp";
 import Counter from "./components/Counter";
+import OurBlogs from "./components/blogs/OurBlogs";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <AboutUs />
       <Wwp />
       <Counter />
+      <OurBlogs />
+      <Footer />
     </div>
   );
 }

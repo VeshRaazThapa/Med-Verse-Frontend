@@ -5,7 +5,7 @@ import CommunityItems from "./CommunityItems";
 const Community = () => {
   return (
     <div className="community-block">
-      <SectionTitle text="Our Community" />
+      <SectionTitle text="OUR COMMUNITY" />
       <CommunityItems />
     </div>
   );
