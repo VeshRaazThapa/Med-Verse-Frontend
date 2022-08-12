@@ -1,0 +1,43 @@
+.nav-bar {
+  height: 80px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navBar-items {
+  display: flex;
+  align-items: center;
+}
+
+.navBar-item {
+  margin-right: 1.5rem;
+  align-items: center;
+}
+
+.profile {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.underline a {
+  text-decoration: none;
+  color: #000;
+}
+
+.profile-image {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin-right: 8px;
+}
+
+.profile-name {
+  /* margin-top: -10px; */
+  margin: 0;
+}
