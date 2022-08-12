@@ -1,5 +1,6 @@
 import "./SideRecords.css";
 import SideSection from "./SideSection";
+import MainLogo from "../../components/shared-components/MainLogo";
 
 function SideRecords() {
   const hosVisitedList = [
@@ -62,8 +63,16 @@ function SideRecords() {
   return (
     <div className="sideRecords">
       <div className="recordsTitle">
-        <p>Past health Records</p>
+        <a href="/login">
+          <MainLogo />
+        </a>
       </div>
+      <SideSection
+        title="Request Acess"
+        btnText="Acess"
+        addClass="btn-shade"
+        path="http://localhost:4000/patient-demo"
+      />
       <SideSection
         title="Hospital you visited"
         details={hosVisitedList}

@@ -1,8 +1,8 @@
-.button {
+.button-more {
   text-align: center;
 }
 
-.btn {
+.btn-more {
   color: var(--green);
   background-color: #fff;
   font-size: 0.8rem;
@@ -10,6 +10,11 @@
   margin: 0 10px;
   border: 1px solid var(--green);
   cursor: pointer;
+}
+
+.btn-more:hover {
+  font-weight: bold;
+  box-shadow: 1px 1px 5px var(--green);
 }
 
 .btn-shade {

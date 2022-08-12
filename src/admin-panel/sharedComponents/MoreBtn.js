@@ -1,13 +1,16 @@
 import "./MoreBtn.css";
 
-const MoreBtn = ({ text, addClass, padding }) => {
-  const classList = Boolean(addClass) ? `btn ${addClass}` : "btn";
-  console.log(padding);
+const MoreBtn = ({ text, addClass, padding, path }) => {
+  const directedPath = Boolean(path) ? path : "/workonprogress";
+  const classList = Boolean(addClass) ? `btn-more ${addClass}` : "btn-more";
+  console.log(path);
   return (
-    <div className="button">
-      <button className={classList} style={{ padding }}>
-        {text}
-      </button>
+    <div className="button-more">
+      <a href={directedPath}>
+        <button className={classList} style={{ padding }}>
+          {text}
+        </button>
+      </a>
     </div>
   );
 };

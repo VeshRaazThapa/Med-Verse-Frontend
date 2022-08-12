@@ -2,7 +2,7 @@ import MoreBtn from "../sharedComponents/MoreBtn";
 import "./SideSection.css";
 import SideSectionPost from "./SideSectionPost";
 
-function SideSection({ title, details, btnText, addClass }) {
+function SideSection({ title, details, btnText, addClass, path }) {
   return (
     <div className="sideSection">
       <div className="sideSecton-title">
@@ -14,7 +14,12 @@ function SideSection({ title, details, btnText, addClass }) {
           <SideSectionPost visitDate={detail.date} Name={detail.Name} key={i} />
         ))}
 
-      <MoreBtn text={btnText} padding="10px 16px" addClass={addClass} />
+      <MoreBtn
+        text={btnText}
+        padding="10px 16px"
+        addClass={addClass}
+        path={path}
+      />
     </div>
   );
 }

@@ -1,9 +1,12 @@
 import "./LoadBtn.css";
 
-const LoadBtn = () => {
+const LoadBtn = ({ path }) => {
+  const directedPath = Boolean(path) ? path : "/workonprogress";
   return (
     <div className="load-btn">
-      <button>Load more</button>
+      <a href={directedPath}>
+        <button>Load more</button>
+      </a>
     </div>
   );
 };
