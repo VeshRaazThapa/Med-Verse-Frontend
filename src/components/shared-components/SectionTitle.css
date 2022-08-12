@@ -11,3 +11,14 @@
   margin: 0;
   padding-bottom: 12px;
 }
+
+/* .sectionTitle-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: var(--green);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+} */
