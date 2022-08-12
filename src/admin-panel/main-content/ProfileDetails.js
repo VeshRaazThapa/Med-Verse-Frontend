@@ -6,7 +6,9 @@ function ProfileDetails() {
     <div className="profileDetails">
       <div className="pd-row1">
         <div className="userProfile">
-          <div className="userProfile-image"></div>
+          <div className="userProfile-image">
+            <img src={require("../../components/images/dr-sabb.png")} alt="" />
+          </div>
           <div className="userProfile-identity">
             <span>Rameshwor Nepal</span>
             <span>Kathmandu,Nepal</span>
@@ -36,7 +38,10 @@ function ProfileDetails() {
         </div>
       </div>
       <div className="pd-row2">
-        <p>Pulse Rate</p>
+        <img src={require("../../components/images/sugar-level.png")} alt="" />
+      </div>
+      <div className="pd-row3">
+        <h4>Personal Assestments</h4>
       </div>
     </div>
   );

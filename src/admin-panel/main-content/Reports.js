@@ -46,7 +46,7 @@ function Reports() {
       <div className="last-loadMoreBtn">
         <MoreBtn
           text="Load More"
-          padding="8px"
+          padding="8px 12px"
           style={{ backgroundColor: "red" }}
         />
       </div>

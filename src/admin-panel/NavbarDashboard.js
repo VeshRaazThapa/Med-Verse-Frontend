@@ -18,13 +18,22 @@ function NavbarDashboard() {
       </div>
       <div className="dsbd-navbar__menuItems">
         <div className="menuItems-icon">
-          <MessageIcon />
+          <a href="/workonprogress">
+            {" "}
+            <MessageIcon />
+          </a>
         </div>
         <div className="menuItems-icon">
-          <NotificationsIcon />
+          <div className="notification-no">5</div>
+          <a href="/workonprogress">
+            <NotificationsIcon className="notice-icon" />
+          </a>
         </div>
         <div className="menuItems-icon">
-          <SettingsIcon />
+          <a href="/workonprogress">
+            {" "}
+            <SettingsIcon />
+          </a>
         </div>
       </div>
     </div>

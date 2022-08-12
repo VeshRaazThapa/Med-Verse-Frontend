@@ -15,7 +15,8 @@
 
 .userProfile,
 .pd-container2,
-.pd-row2 {
+.pd-row2,
+.pd-row3 {
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
   background-color: rgba(211, 211, 211, 0.4);
@@ -37,13 +38,21 @@
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
-.userProfie-id,
+.userProfile-image img {
+  height: 135%;
+  width: 100%;
+  transform: scale(1.3);
+}
+
+.userProfile-image .userProfie-id,
 .userProfile-identity,
-.userExtraDetails {
+.userExtraDetails,
+.userProfie-id {
   position: relative;
-  top: -32px;
+  top: -45px;
 }
 
 .userProfile-identity {
@@ -78,10 +87,20 @@
   font-weight: 600;
 }
 
-.pd-row2 {
+.pd-row2,
+.pd-row3 {
   background-color: #fff;
   width: 96%;
   height: 300px;
   margin-top: 52px;
+  overflow: hidden;
+}
+
+.pd-row2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.pd-row3 {
   padding: 10px;
 }

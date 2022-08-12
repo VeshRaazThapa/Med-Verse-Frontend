@@ -5,6 +5,8 @@ import App from "./App";
 import LogInHome from "./LogInHome";
 import Dashboard from "./admin-panel/Dashboard";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import WorkOnProgress from "./WorkOnProgress";
+import Community from "./components/community/Community";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +16,8 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/login" element={<LogInHome />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="*" element={<WorkOnProgress />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

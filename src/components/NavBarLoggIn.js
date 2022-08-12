@@ -7,17 +7,34 @@ const NavBar = () => {
     <div className="nav-bar">
       <MainLogo />
       <div className="navBar-items">
-        <div className="navBar-item underline">Home</div>
-        <div className="navBar-item underline">Community</div>
+        <div className="navBar-item underline">
+          <a href="/login">Home</a>
+        </div>
+        <div className="navBar-item underline">
+          <a href="/community">Community</a>
+        </div>
         <div className="navBar-item underline">
           <a href="/dashboard">Patient Info</a>
         </div>
-        <div className="navBar-item underline">Blogs</div>
-        <div className="navBar-item underline">About Us</div>
-        <div className="navBar-item underline">Contact</div>
+        <div className="navBar-item underline">
+          <a href="/blogs">Blogs</a>
+        </div>
+        <div className="navBar-item underline">
+          <a href="/aboutUs">About Us</a>
+        </div>
+        <div className="navBar-item underline">
+          <a href="/contact">Contact</a>
+        </div>
         <div className="navBar-item profile">
-          <span className="profile-image"></span>{" "}
-          <p className="profile-name">Rameshwor Nepal</p>
+          <span className="profile-image">
+            <img
+              src={require("../components/images/doctor-imageProfile.jpg")}
+              alt=""
+            />
+          </span>{" "}
+          <p className="profile-name">
+            <a href="http://localhost:4000/doctor-dashboard">Dr. Sakar Regmi</a>
+          </p>
         </div>
       </div>
     </div>
